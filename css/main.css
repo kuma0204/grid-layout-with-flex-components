@@ -1,0 +1,17 @@
+.emojis{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-areas: 
+ "icon icon "
+ "icon icon "
+ }
+ .span{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+a{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+}
