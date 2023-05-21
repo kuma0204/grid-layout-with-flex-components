@@ -6,19 +6,13 @@
     "icon icon "
     "icon icon " ;
     grid-gap: 10px;
-    /* align-items: center; */
+    
 }
 h2{
-    /* display: inline; */
+   
     text-decoration: underline;
     
 }
-/* .span{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-} */
 a:link {
     text-decoration: none;
 }
