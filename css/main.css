@@ -1,17 +1,35 @@
 .emojis{
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-areas: 
- "icon icon "
- "icon icon "
- }
- .span{
+    width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "icon icon "
+    "icon icon " ;
+    grid-gap: 10px;
+    /* align-items: center; */
+}
+/* .span{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
- }
+    
+} */
+a:link {
+    text-decoration: none;
+}
 a{
     background-color: blueviolet;
     color: white;
     padding: 5px;
+}
+.emoji{
+    border: 1px solid black;
+    padding: 15px;
+
+}
+.emoji{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
 }
