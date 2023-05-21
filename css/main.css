@@ -8,6 +8,11 @@
     grid-gap: 10px;
     /* align-items: center; */
 }
+h2{
+    /* display: inline; */
+    text-decoration: underline;
+    
+}
 /* .span{
     display: flex;
     flex-direction: column;
@@ -32,4 +37,9 @@ a{
     flex-direction: column;
     flex-wrap: wrap;
    
+}
+.emoji .icon{
+    flex-grow: 1;
+    order: -1 ;
+    align-self: center;
 }
