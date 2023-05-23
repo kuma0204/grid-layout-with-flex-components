@@ -43,18 +43,18 @@ body {
     color: #222;
   }
   
-  .emoji {
+.emoji {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
   }
   
-  .emoji h2 {
+.emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
   }
   
-  .emoji a {
+.emoji a {
     text-decoration: none;
     background-color: #781BAA;
     color: white;
@@ -62,10 +62,10 @@ body {
     border-radius: 8px;
   }
   
-  .icon {
+.icon {
     font-size: 4rem;
   }
-  .emojis{
+.emojis{
     width: 800px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
