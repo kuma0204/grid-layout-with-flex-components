@@ -22,15 +22,11 @@ body {
     font-size: 4rem;
 }
 .emojis{
-    width: 800px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "icon icon "
-    "icon icon " ;
     grid-gap: 10px; 
 }
-/* useing grid temlate areas to align the icons in grid */
+/* useing grid to align the icons in grid */
 .emoji{
     display: flex;
     flex-direction: column;
